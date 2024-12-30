@@ -1,0 +1,36 @@
+/* Styles for Login Page */
+.login-container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .login-heading {
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #e7bd9c;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #d6a782;
+  }
+  
